@@ -1,6 +1,4 @@
-# CellSignal Pro — iQOO 9 engineering build (v0.2 source)
-
-Target device: iQOO 9 5G, Android 14 / Funtouch OS 14. Designed for multi-operator use with SIM 1 as the initial preferred subscription.
+# CellSignal Pro —
 
 ## Included
 - Kotlin + Jetpack Compose Android application.
