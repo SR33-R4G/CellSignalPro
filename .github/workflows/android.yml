@@ -4,7 +4,7 @@ name: Build CellSignal Pro APK
 on:
   workflow_dispatch:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
 permissions:
   contents: read
@@ -27,10 +27,11 @@ jobs:
           distribution: temurin
           java-version: "17"
 
-      - name: Verify Android SDK
+      - name: Verify project structure
         run: |
-          echo "Android SDK: $ANDROID_HOME"
-          ls "$ANDROID_HOME"
+          pwd
+          ls -la
+          ls -la CellSignalPro
 
       - name: Build APK
         working-directory: CellSignalPro
